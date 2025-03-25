@@ -613,7 +613,7 @@ Transform:
   m_GameObject: {fileID: 353162999}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.76, y: 3.5100002, z: 0}
+  m_LocalPosition: {x: -7.66, y: 3.45, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -721,7 +721,7 @@ Transform:
   m_GameObject: {fileID: 466497213}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.76, y: 0.5100001, z: 0}
+  m_LocalPosition: {x: -5.66, y: 0.45, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -897,7 +897,8 @@ Transform:
   m_LocalPosition: {x: 2.7657459, y: -0.733097, z: -0.12124211}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 1005474252}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &609532474
@@ -1476,7 +1477,7 @@ Transform:
   m_GameObject: {fileID: 840653038}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.76, y: -1.4899999, z: 0}
+  m_LocalPosition: {x: -5.66, y: -1.6, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1694,7 +1695,7 @@ GameObject:
   - component: {fileID: 1005474252}
   - component: {fileID: 1005474251}
   m_Layer: 0
-  m_Name: panelInset_beige_0
+  m_Name: TurretSelector
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1763,12 +1764,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1005474250}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.48, y: 0.02, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -7.2457457, y: 0.753097, z: 0.12124211}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 601035995}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1017566907
 PrefabInstance:
@@ -1914,7 +1915,7 @@ Transform:
   m_GameObject: {fileID: 1101761526}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.76, y: 0.5100001, z: 0}
+  m_LocalPosition: {x: -7.66, y: 0.45, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2161,7 +2162,7 @@ Transform:
   m_GameObject: {fileID: 1219645883}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.76, y: -3.4899998, z: 0}
+  m_LocalPosition: {x: -6.66, y: -3.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2249,7 +2250,7 @@ Transform:
   m_GameObject: {fileID: 1296246274}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.76, y: -1.4899999, z: 0}
+  m_LocalPosition: {x: -6.66, y: -1.6, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2690,7 +2691,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1847131277}
   m_Layer: 0
-  m_Name: Path
+  m_Name: EnemyPath
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3356,4 +3357,3 @@ SceneRoots:
   - {fileID: 1847131277}
   - {fileID: 8082375750532635315}
   - {fileID: 601035995}
-  - {fileID: 1005474252}
